@@ -6,7 +6,8 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [ring/ring-core "1.8.0"]
                  [ring/ring-jetty-adapter "1.8.0"]
-                 [ring/ring-devel "1.8.0"]]
+                 [ring/ring-devel "1.8.0"]
+                 [rum "0.11.4"]]
   :ring {:handler isomorphic-app.core/handler}
   :plugins [[lein-ring "0.12.5"]]
   :repl-options {:init-ns isomorphic-app.core})
